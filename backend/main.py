@@ -32,7 +32,7 @@ app = FastAPI(
 # CORS Middleware
 # This is crucial for allowing the frontend to communicate with the backend
 origins = [
-        "https://beacon-7vpe.onrender.com/",  # Your React dev server
+        "https://beacon-7vpe.onrender.com",  # Your React dev server
         "http://127.0.0.1:5173"
 ]
 
