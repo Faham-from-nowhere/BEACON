@@ -1,0 +1,85 @@
+.trust-score-container {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+    max-width: 320px;
+  }
+  
+  .trust-score-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .trust-score-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .status-indicator {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  .status-normal {
+    background-color: #e6f7e6;
+    color: #4CAF50;
+  }
+  
+  .status-anomalous {
+    background-color: #ffebee;
+    color: #f44336;
+    animation: pulse 1.5s infinite;
+  }
+  
+  .score-display {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+  
+  .score-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .score-bar {
+    height: 8px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .score-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4CAF50, #8BC34A);
+    width: 0;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .score-fill-anomalous {
+    background: linear-gradient(90deg, #f44336, #FF9800);
+  }
+  
+  .trust-score-footer {
+    font-size: 0.85rem;
+    color: #666;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
+  @keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+  }

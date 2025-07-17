@@ -1,0 +1,77 @@
+{
+  "typingPatterns": [
+    {
+      "key": "t",
+      "code": "KeyT",
+      "timestamp": 1719225600000,
+      "dwellTime": 100
+    },
+    {
+      "key": "e",
+      "code": "KeyE",
+      "timestamp": 1719225600150,
+      "dwellTime": 80
+    },
+    {
+      "key": "s",
+      "code": "KeyS",
+      "timestamp": 1719225600300,
+      "dwellTime": 120
+    },
+    {
+      "key": "t",
+      "code": "KeyT",
+      "timestamp": 1719225600450,
+      "dwellTime": 90
+    }
+  ],
+  "mouseMovements": [
+    {
+      "x": 100,
+      "y": 250,
+      "timestamp": 1719225601000
+    },
+    {
+      "x": 105,
+      "y": 255,
+      "timestamp": 1719225601100
+    },
+    {
+      "x": 110,
+      "y": 260,
+      "timestamp": 1719225601200
+    },
+    {
+      "x": 112,
+      "y": 263,
+      "timestamp": 1719225601300
+    }
+  ],
+  "clickEvents": [
+    {
+      "x": 200,
+      "y": 300,
+      "target": "BUTTON",
+      "timestamp": 1719225602000,
+      "hoverTime": 500
+    },
+    {
+      "x": 50,
+      "y": 80,
+      "target": "A",
+      "timestamp": 1719225602500,
+      "hoverTime": 200
+    }
+  ],
+  "deviceInfo": {
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "screenResolution": "1920x1080",
+    "viewportSize": "1400x900",
+    "os": "Win32",
+    "timezone": "Asia/Kolkata"
+  },
+  "fingerprint": "your-mock-fingerprint-id-12345",
+  "currentUser": {
+    "email": "testuser@example.com"
+  }
+}
